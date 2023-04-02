@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Notes"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/myNumm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="12"
+        android:layout_gravity="center"
+        android:hint="Enter The Amounts"
+        android:textColorHint="#fff"
+        android:inputType="numberDecimal"
+
+        android:textSize="30sp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCC"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/rectangle"/>
+
+    <TextView
+        android:id="@+id/res100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Notes of 100 = "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/res50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Notes of 50 = "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/res10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Notes of 10 = "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/res1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Notes of 1 = "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/resTot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Total no of Notes = "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+</LinearLayout>

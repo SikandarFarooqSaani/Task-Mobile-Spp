@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cmtofeet"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/myNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="12"
+        android:layout_gravity="center"
+        android:hint="Enter First Number"
+        android:textColorHint="#fff"
+        android:inputType="numberDecimal"
+
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/myNum23456"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="12"
+        android:layout_gravity="center"
+        android:hint="Enter 2nd Number"
+        android:textColorHint="#fff"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnC"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="15pt"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:textColor="#fff"
+        android:background="@drawable/rectangle"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSub"
+        android:layout_width="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="15pt"
+        android:textColor="#fff"
+        android:background="@drawable/rectangle"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMul"
+        android:layout_width="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="15pt"
+        android:layout_marginLeft="35dp"
+        android:textColor="#fff"
+        android:background="@drawable/rectangle"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btndiv"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="15pt"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="#fff"
+        android:background="@drawable/rectangle"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/round"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Round"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMod"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Module"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnpow"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Power 2nd"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnsin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Sin 1st"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btncos"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cos 1st"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btntan"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="tan 1st"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnlog"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Log 1st"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnlog10"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Log10 1st"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ceiling"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ceiling"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/floor"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Floor 1st"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/squareroot"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Square Root"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:layout_marginRight="35dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="Result = "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+</LinearLayout>
